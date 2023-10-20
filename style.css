@@ -1,25 +1,24 @@
-body, h1, h2, p {
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
 
-/* Apply some basic styling to the page */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #012169;
+    color: #f2f7f2;
     text-align: center;
     padding: 20px;
 }
 
 nav {
-    background-color: #333;
+    background-color: #5f5f5f;
 }
 
     nav ul {
@@ -34,14 +33,15 @@ nav {
 
     nav a {
         text-decoration: none;
-        color: #fff;
+        color: #f2f7f2;
     }
 
 main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #5f5f5f;
+    color: #f2f7f2;
 }
 
 section {
@@ -54,3 +54,36 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+
+/*Class Styles*/
+
+.linkCleanHeader {
+    text-decoration: none;
+    color: #fff;
+}
+
+.linkClean {
+    text-decoration: none;
+}
+
+.imgHome {
+    border-radius: 10px;
+    width: 90%;
+    aspect-ratio: 16/9;
+}
+
+.imgHomeFooter {
+    color: #7a7a7a;
+    padding: 5px auto;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
