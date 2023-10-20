@@ -37,11 +37,12 @@ nav {
     }
 
 main {
-    max-width: 1000px;
+    max-width: 85%;
     margin: 20px auto;
     padding: 20px;
     background-color: #5f5f5f;
     color: #f2f7f2;
+    border-radius: 20px;
 }
 
 section {
@@ -74,9 +75,15 @@ footer {
 }
 
 .imgHomeFooter {
-    color: #7a7a7a;
+    color: #f2f7f2;
     padding: 5px auto;
     text-align: center;
+}
+
+.imgDivHome {
+    border-radius: 10px;
+    width: 90%;
+    background-color: #7a7a7a;
 }
 
 .row {
