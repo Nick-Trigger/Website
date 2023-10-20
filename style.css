@@ -14,7 +14,8 @@ header {
     background-color: #012169;
     color: #f2f7f2;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
+    padding-bottom: 30px;
 }
 
 nav {
@@ -93,4 +94,3 @@ footer {
 .column {
     flex: 50%;
 }
-
