@@ -1,3 +1,3 @@
 # Website
 
-Yos
+Yo
